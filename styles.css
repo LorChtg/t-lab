@@ -17,6 +17,8 @@ header {
 
 .head {
   padding: 5rem 0;
+  display: flex;
+  flex-flow: column wrap;
 }
 .head--circle {
   background-color: #f4b37d;
@@ -60,6 +62,7 @@ header {
   margin: 0 auto;
   opacity: 0.5;
   mix-blend-mode: multiply;
+  z-index: 1;
 }
 .head--title {
   z-index: 0;
