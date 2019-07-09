@@ -3,6 +3,8 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* NAVBAR */
 header {
   background-color: #ffffff;
   margin: 0;
@@ -15,11 +17,14 @@ header {
   font-weight: 100;
 }
 
+/* HEAD SECTION */
 .head {
   padding: 5rem 0;
   display: flex;
   flex-flow: column wrap;
 }
+
+/* Circle */
 .head--circle {
   background-color: #f4b37d;
   height: 25rem;
@@ -49,6 +54,8 @@ header {
   left: 25rem;
   top: 2rem;
 }
+
+/* Dogs picture */
 .head--picture {
   height: 25rem;
   width: 25rem;
@@ -64,6 +71,8 @@ header {
   mix-blend-mode: multiply;
   z-index: 1;
 }
+
+/* Title */
 .head--title {
   z-index: 0;
   margin: -25rem auto 0;
@@ -75,6 +84,8 @@ header {
   text-align: center;
   font-weight: 900;
 }
+
+/* Shopping button */
 .head--button {
   margin: 10rem auto 0;
   display: flex;
@@ -94,3 +105,5 @@ header {
   font-weight: 300;
   padding: 0.4rem 0.55rem;
 }
+
+/* ABOUT SECTION */
