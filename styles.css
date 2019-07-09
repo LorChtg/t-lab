@@ -26,15 +26,26 @@ header {
   margin: 0 auto;
 }
 .head--picture {
-height: 24rem;
-width: 24rem;
-margin: -24rem auto 0;
-display: flex;
-align-items: center;
+  height: 24rem;
+  width: 24rem;
+  margin: -24rem auto 0;
+  display: flex;
+  align-items: center;
 }
 .picture--shiba {
-height: 55%;
-width: auto;
-margin: 0 auto;
-opacity: 0.7;
+  height: 55%;
+  width: auto;
+  margin: 0 auto;
+  opacity: 0.5;
+}
+.head--title {
+  z-index: 0;
+  margin: -24rem auto 0;
+}
+.title--content {
+  color: white;
+  font-size: 8rem;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 900;
 }
