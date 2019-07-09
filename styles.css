@@ -8,9 +8,20 @@ header {
   margin: 0;
   padding: 1rem 0;
 }
-.header-title {
+.header--title {
   margin: 0 1rem;
   text-align: center;
   font-size: 1.3rem;
   font-weight: 100;
+}
+
+.head {
+  padding: 8rem 0;
+}
+.head--circle {
+  background-color: #f4b37d;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  margin: 0 auto;
 }
