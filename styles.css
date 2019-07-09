@@ -121,6 +121,12 @@ header {
 .description {
   max-width: calc(100% / 3);
 }
+.description--picture {
+  padding: 0 1rem;
+}
+.description--content {
+  padding: 0 1rem;
+}
 .content--title {
   text-transform: uppercase;
 }
