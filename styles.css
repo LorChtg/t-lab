@@ -25,6 +25,28 @@ header {
   border-radius: 50%;
   margin: 0 auto;
 }
+.head--circle::before {
+  background-color: #f4b37d;
+  height: 1.5rem;
+  width: 1.5rem;
+  content: '';
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  left: 24rem;
+  top: -1.5rem;
+}
+.head--circle::after {
+  background-color: #f4b37d;
+  height: 3rem;
+  width: 3rem;
+  content: '';
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  left: 25rem;
+  top: 2rem;
+}
 .head--picture {
   height: 25rem;
   width: 25rem;
@@ -63,6 +85,7 @@ header {
   color: #ffffff;
   border: solid #ffffff 0.1rem;
   padding: 0.4rem 0.8rem;
+  cursor: pointer;
 }
 .button--shopping:hover {
   font-weight: 300;
