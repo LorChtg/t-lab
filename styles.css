@@ -37,6 +37,7 @@ header {
   width: auto;
   margin: 0 auto;
   opacity: 0.5;
+  mix-blend-mode: multiply;
 }
 .head--title {
   z-index: 0;
