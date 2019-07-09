@@ -107,3 +107,15 @@ header {
 }
 
 /* ABOUT SECTION */
+.about {
+  background-color: #f4b37d;
+  color: #ffffff;
+}
+.about--description {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 3rem;
+}
+.description {
+  max-width: calc(100% / 3);
+}
