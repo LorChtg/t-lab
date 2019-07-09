@@ -50,3 +50,9 @@ header {
   text-align: center;
   font-weight: 900;
 }
+.head--button {
+  margin: 12rem auto 0;
+}
+.button--shopping {
+  text-align: center
+}
