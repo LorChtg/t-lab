@@ -135,7 +135,10 @@ header {
   display: flex;
   justify-content: center;
 }
-.picture {
+.description--picture-first {
+  justify-content: flex-end;
+}
+.picture-artisan {
     height: 100%;
     width: auto;
 }
