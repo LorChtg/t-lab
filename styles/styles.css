@@ -43,3 +43,11 @@ header {
   font-size: 1.3rem;
   font-weight: 100;
 }
+
+/* FOOTER */
+footer {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 1rem 0;
+  color: #a8a8a8;
+}
