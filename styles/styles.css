@@ -42,17 +42,28 @@ header {
   justify-content: space-between;
 }
 .header--menu {
-  height: 2rem;
   margin: 0 1rem 0 0;
+  width: calc(25vw - 2rem);
+}
+.menu--icon {
+  height: 1.8rem;
 }
 .header--title {
   margin: 0 1rem;
   text-align: center;
   font-size: 1.3rem;
   font-weight: 100;
+  width: calc(50vw - 2rem);
 }
 .header--icons {
-  margin: 0 0 0 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  width: calc(25vw - 2rem);
+  justify-content: flex-end;
+}
+.icons--svg {
+  height: 1.8rem;
+  margin-left: 0.7rem;
 }
 
 /* FOOTER */
