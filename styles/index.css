@@ -1,0 +1,152 @@
+/* HEAD SECTION */
+.head {
+  padding: 5rem 0;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+/* Circle */
+.head--circle {
+  background-color: #f4b37d;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.head--circle::before {
+  background-color: #f4b37d;
+  height: 1.5rem;
+  width: 1.5rem;
+  content: '';
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  left: 24rem;
+  top: -1.5rem;
+}
+.head--circle::after {
+  background-color: #f4b37d;
+  height: 3rem;
+  width: 3rem;
+  content: '';
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  left: 25rem;
+  top: 2rem;
+}
+
+/* Dogs picture */
+.head--picture {
+  height: 25rem;
+  width: 25rem;
+  margin: -25rem auto 0;
+  display: flex;
+  align-items: center;
+}
+.picture--shiba {
+  height: 55%;
+  width: auto;
+  margin: 0 auto;
+  opacity: 0.5;
+  mix-blend-mode: multiply;
+  z-index: 1;
+}
+
+/* Title */
+.head--title {
+  z-index: 0;
+  margin: -25rem auto 0;
+}
+.title--content {
+  color: white;
+  font-size: 8rem;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 900;
+}
+
+/* Shopping button */
+.head--button {
+  margin: 10rem auto 0;
+  display: flex;
+}
+.button--shopping {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  font-weight: 100;
+  background-color: #f4b37d;
+  color: #ffffff;
+  border: solid #ffffff 0.1rem;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
+.button--shopping:hover {
+  font-weight: 300;
+  padding: 0.4rem 0.6rem;
+}
+
+/* ABOUT SECTION */
+.about {
+  background-color: #f4b37d;
+  color: #ffffff;
+  margin: 5rem 0 0;
+}
+.about--description {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 3rem;
+}
+.description {
+  max-width: calc(96% / 3);
+  margin: 2rem 0;
+  padding: 0 calc(2% / 3);
+  display: flex;
+  flex-flow: column wrap;
+}
+.description--picture {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 12rem;
+  width: 12rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.description--picture-first {
+  justify-content: flex-end;
+}
+.picture-artisan {
+  height: 100%;
+  width: auto;
+  z-index: 2;
+}
+
+/* Background circles */
+.description--circle {
+  height: 12rem;
+  width: 12rem;
+  margin: -12rem auto 0;
+}
+.description--circle::after {
+  background-color: #f4d5b8;
+  height: 12rem;
+  width: 12rem;
+  content: '';
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  left: 0.5rem;
+  z-index: 0;
+}
+.description--content {
+  text-align: center;
+}
+.content--title {
+  text-transform: uppercase;
+  margin: 2rem 0 0;
+}
+.content--text {
+  font-weight: 100;
+}
