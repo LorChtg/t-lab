@@ -1,7 +1,33 @@
+/* GENERAL STYLES */
 body {
   background-color: #f4d5b8;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  color: #424242;
+  letter-spacing: 0.005rem;
+}
+p {
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.25rem;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h3 {
+  font-size: 1.6rem;
+}
+h4 {
+  font-size: 1.4rem;
+}
+h5 {
+  font-size: 1.2rem;
+}
+h6 {
+  font-size: 1.1rem;
 }
 
 /* NAVBAR */
@@ -126,7 +152,6 @@ header {
   flex-flow: column wrap;
 }
 .description--picture {
-  /*padding: 0 1rem;*/
   border-radius: 50%;
   overflow: hidden;
   height: 12rem;
@@ -135,6 +160,16 @@ header {
   display: flex;
   justify-content: center;
 }
+.description--picture-first {
+  justify-content: flex-end;
+}
+.picture-artisan {
+  height: 100%;
+  width: auto;
+  z-index: 2;
+}
+
+/* Background circles */
 .description--circle {
   height: 12rem;
   width: 12rem;
@@ -151,20 +186,12 @@ header {
   left: 0.5rem;
   z-index: 0;
 }
-.description--picture-first {
-  justify-content: flex-end;
-}
-.picture-artisan {
-    height: 100%;
-    width: auto;
-    z-index: 2;
-}
 .description--content {
-  /*padding: 0 1rem;*/
   text-align: center;
 }
 .content--title {
   text-transform: uppercase;
+  margin: 2rem 0 0;
 }
 .content--text {
   font-weight: 100;
