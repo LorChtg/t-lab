@@ -98,9 +98,34 @@ footer {
   position: fixed;
   top: 0;
   height: 100vh;
-  width: 35vw;
+  width: 30vw;
   z-index: 99;
   padding: 1rem;
   background-color: #fdf6f1;
   color: #f4b37d;
+  box-shadow: 0.1rem 0 0.5rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+.menu--close {
+  height: calc(20vh - 1rem);
+  display: flex;
+  align-items: flex-start;
+}
+.close--icon {
+  height: 1.8rem;
+}
+.menu--entries {
+  height: calc(80vh - 1rem);
+}
+.entries--list {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 0;
+  margin: 0;
+}
+.list--link {
+  display: block;
+  margin: 0 2rem 3rem 0;
+  font-size: 1.4rem;
+  border-bottom: solid 0.1rem;
+  padding-bottom: 0.5rem
 }
