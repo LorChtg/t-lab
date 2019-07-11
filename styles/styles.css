@@ -50,4 +50,23 @@ footer {
   margin: 0;
   padding: 1rem 0;
   color: #a8a8a8;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.footer--credits {
+  width: 100%;
+}
+.credits--list {
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  width: 50%;
+  margin: 1rem auto;
+  justify-content: center;
+}
+.list--item {
+  display: inline;
+  margin: 0 1rem 0 0;
+  text-align: center;
 }
