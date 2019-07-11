@@ -34,14 +34,25 @@ h6 {
 header {
   background-color: #ffffff;
   margin: 0;
-  padding: 1rem 0;
+  padding: 1rem;
   color: #424242;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.header--menu {
+  height: 2rem;
+  margin: 0 1rem 0 0;
 }
 .header--title {
   margin: 0 1rem;
   text-align: center;
   font-size: 1.3rem;
   font-weight: 100;
+}
+.header--icons {
+  margin: 0 0 0 1rem;
 }
 
 /* FOOTER */
