@@ -29,6 +29,10 @@ h5 {
 h6 {
   font-size: 1.1rem;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 /* NAVBAR */
 header {
@@ -47,6 +51,7 @@ header {
 }
 .menu--icon {
   height: 1.8rem;
+  cursor: pointer;
 }
 .header--title {
   margin: 0 1rem;
@@ -112,6 +117,7 @@ footer {
 }
 .close--icon {
   height: 1.8rem;
+  cursor: pointer;
 }
 .menu--entries {
   height: calc(80vh - 1rem);
