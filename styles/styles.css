@@ -129,3 +129,18 @@ footer {
   border-bottom: solid 0.1rem;
   padding-bottom: 0.5rem
 }
+
+.menu--animation-in {
+  animation: slidein-menu 0.7s;
+}
+.menu--animation-out {
+  animation: slideout-menu 0.7s;
+}
+@keyframes slidein-menu {
+  from {
+    left: -30vw;
+  }
+  to {
+    left: 0;
+  }
+}
