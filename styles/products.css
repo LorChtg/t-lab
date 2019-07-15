@@ -11,3 +11,14 @@
   width: calc(90% / 3);
   padding: 0 calc(5% / 3);
 }
+.article--info {
+  text-align: center;
+  margin: 1rem 0 0 ;
+}
+.info--name {
+  margin: 0;
+}
+.info--price {
+  margin: 0.5rem 0 0;
+  font-size: 1.1rem;
+}
