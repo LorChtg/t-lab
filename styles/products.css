@@ -1,0 +1,13 @@
+.products {
+  color: #ffffff;
+  margin: 3rem 0;
+}
+.products--grid {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 4rem;
+}
+.grid--article {
+  width: calc(90% / 3);
+  padding: 0 calc(5% / 3);
+}
