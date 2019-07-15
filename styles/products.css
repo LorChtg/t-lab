@@ -11,6 +11,10 @@
   width: calc(90% / 3);
   padding: 0 calc(5% / 3);
 }
+.grid--article:hover {
+  color: #f4b37d;
+  cursor: pointer;
+}
 .article--info {
   text-align: center;
   margin: 1rem 0 0 ;
