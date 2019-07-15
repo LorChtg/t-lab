@@ -20,11 +20,13 @@
   height: 12rem;
   width: 12rem;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 .picture {
-  width: 100%;
-  height: auto;
-  mix-blend-mode: multiply;
+  width: auto;
+  height: 135%;
 }
 .article--info {
   text-align: center;
