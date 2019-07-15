@@ -11,9 +11,9 @@
     <!-- START Navbar -->
     <header>
       <div class="header--menu">
-        <img class="menu--icon" src="assets/svg/baseline-menu-24px.svg" alt="hambuger menu icon">
+        <img id="event--open-menu" class="menu--icon" src="assets/svg/baseline-menu-24px.svg" alt="hambuger menu icon">
       </div>
-      <h3 class="header--title">HANDMADE<br>WOODWORKS</h3>
+      <h3 class="header--title"><a href="index.html">HANDMADE<br>WOODWORKS</a></h3>
       <div class="header--icons">
         <img  class="icons--svg" src="assets/svg/baseline-search-24px.svg" alt="search menu icon">
         <img  class="icons--svg" src="assets/svg/outline-shopping_basket-24px.svg" alt="shopping menu icon">
@@ -35,11 +35,14 @@
       </div>
     </section>
     <!-- END Head section -->
-
+    
     <!-- START About section -->
     <section class="about">
+        <div class="about--wave">
+          <img class="wave" src="assets/svg/wave.svg" alt="wave">
+        </div>
       <div class="about--description">
-        <article class="description description-first">
+        <article class="description">
           <div class="description--picture description--picture-first">
             <img class="picture-artisan" src="assets/jpg/home/artisan-1.jpg" alt="artisan-1">
           </div>
@@ -49,7 +52,7 @@
             <p class="content--text">DOUCEMENT..."Pole Pole" signifie doucement, petit à petit, en Swahili. Le fabriquant japonais T-Lab a ainsi à coeur de transmettre la chaleur du bois et du travail manuel. Le design original, tout en rondeur et en douceur, rend ces animaux très attachants.</p>
           </div>
         </article>
-        <article class="description description-second">
+        <article class="description description-middle">
           <div class="description--picture">
             <img class="picture-artisan" src="assets/jpg/home/artisan-2.jpg" alt="artisan-2">
           </div>
@@ -59,7 +62,7 @@
             <p class="content--text">Découpée, sculptée, finement poncée et enfin peinte à la main, chaque pièce est quelque peu différente et tout à fait unique ! Seuls des artisans qualifiés et minutieux peuvent obtenir un résultat quasi identique d'un même animal.</p>
           </div>
         </article>
-        <article class="description description-third">
+        <article class="description">
           <div class="description--picture">
             <img class="picture-artisan" src="assets/jpg/home/artisan-3.jpg" alt="artisan-3">
           </div>
@@ -88,9 +91,9 @@
     <!-- END Footer -->
 
     <!-- START Menu -->
-    <div class="menu">
+    <div id="event--slide-menu" class="menu menu--animation-in" style="display: none;">
       <div class="menu--close">
-        <img class="close--icon" src="assets/svg/baseline-clear-24px.svg" alt="close icon">
+        <img id="event--close-menu" class="close--icon" src="assets/svg/baseline-clear-24px.svg" alt="close icon">
       </div>
       <div class="menu--entries">
         <ul class="entries--list">
@@ -103,4 +106,5 @@
     </div>
     <!-- END Menu -->
   </body>
+  <script type="text/javascript" src="js/index.js"></script>
 </html>
