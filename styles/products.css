@@ -10,10 +10,36 @@
 .grid--article {
   width: calc(90% / 3);
   padding: 0 calc(5% / 3);
+  margin: 1rem 0;
+}
+.grid--article::before {
+  height: 12rem;
+  width: 12rem;
+  content: '';
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  top: 10rem;
+  z-index: -1;
+  margin-top: -14rem;
+  left: calc((100% - 12rem) / 2);
 }
 .grid--article:hover {
   color: #f4b37d;
   cursor: pointer;
+}
+.grid--article:hover::before {
+  background-color: #f4b37d;
+  height: 12rem;
+  width: 12rem;
+  content: '';
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  top: 10rem;
+  z-index: -1;
+  margin-top: -14rem;
+  left: calc((100% - 12rem) / 2);
 }
 .article--picture {
   overflow: hidden;
