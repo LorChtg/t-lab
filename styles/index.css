@@ -93,17 +93,32 @@
   color: #ffffff;
   margin: 5rem 0 0;
 }
+.about--wave {
+  position: absolute;
+  margin-top: -10rem;
+  z-index: -1;
+}
+.wave {
+  width: 100vw;
+  height: auto;
+}
 .about--description {
   display: flex;
   flex-flow: row wrap;
   padding: 0 3rem;
+  min-height: 75vh;
 }
 .description {
   max-width: calc(96% / 3);
-  margin: 2rem 0;
+  margin: -2rem 0;
   padding: 0 calc(2% / 3);
   display: flex;
   flex-flow: column wrap;
+  align-self: flex-start;
+}
+.description-middle {
+  margin: 2rem 0;
+  align-self: flex-end;
 }
 .description--picture {
   border-radius: 50%;
