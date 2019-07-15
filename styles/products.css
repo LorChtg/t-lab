@@ -15,6 +15,17 @@
   color: #f4b37d;
   cursor: pointer;
 }
+.article--picture {
+  overflow: hidden;
+  height: 12rem;
+  width: 12rem;
+  margin: 0 auto;
+}
+.picture {
+  width: 100%;
+  height: auto;
+  mix-blend-mode: multiply;
+}
 .article--info {
   text-align: center;
   margin: 1rem 0 0 ;
