@@ -68,8 +68,8 @@ header {
   justify-content: flex-end;
 }
 .icons--svg {
-  height: 1.8rem;
-  margin-left: 0.7rem;
+  height: 2.2rem;
+  margin-left: 1rem;
 }
 
 /* FOOTER */
@@ -106,7 +106,7 @@ footer {
   height: 100vh;
   width: 30vw;
   z-index: 99;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
   background-color: #fdf6f1;
   color: #f4b37d;
   box-shadow: 0.1rem 0 0.5rem 0.4rem rgba(0, 0, 0, 0.4);
@@ -117,7 +117,7 @@ footer {
   align-items: flex-start;
 }
 .close--icon {
-  height: 1.8rem;
+  height: 1.2rem;
   cursor: pointer;
 }
 .menu--entries {
