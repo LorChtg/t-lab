@@ -25,11 +25,11 @@
   left: calc((100% - 12rem) / 2);
 }
 .grid--article:hover {
-  color: #f4b37d;
+  color: #D48852;
   cursor: pointer;
 }
 .grid--article:hover::before {
-  background-color: #f4b37d;
+  background-color: #D48852;
   height: 12rem;
   width: 12rem;
   content: '';

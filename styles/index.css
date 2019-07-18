@@ -7,14 +7,14 @@
 
 /* Circle */
 .head--circle {
-  background-color: #f4b37d;
+  background-color: #D48852;
   height: 25rem;
   width: 25rem;
   border-radius: 50%;
   margin: 0 auto;
 }
 .head--circle::before {
-  background-color: #f4b37d;
+  background-color: #D48852;
   height: 1.5rem;
   width: 1.5rem;
   content: '';
@@ -25,7 +25,7 @@
   top: -1.5rem;
 }
 .head--circle::after {
-  background-color: #f4b37d;
+  background-color: #D48852;
   height: 3rem;
   width: 3rem;
   content: '';
@@ -76,7 +76,7 @@
   margin: 0 auto;
   font-size: 1.4rem;
   font-weight: 100;
-  background-color: #f4b37d;
+  background-color: #D48852;
   color: #ffffff;
   border: solid #ffffff 0.1rem;
   padding: 0.4rem 0.8rem;
@@ -90,7 +90,7 @@
 
 /* ABOUT SECTION */
 .about {
-  background-color: #f4b37d;
+  background-color: #D48852;
   color: #ffffff;
   margin: 5rem 0 0;
 }
