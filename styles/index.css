@@ -48,7 +48,7 @@
   height: 55%;
   width: auto;
   margin: 0 auto;
-  opacity: 0.5;
+  opacity: 0.7;
   mix-blend-mode: multiply;
   z-index: 1;
 }
@@ -83,9 +83,10 @@
   cursor: pointer;
 }
 .button--shopping:hover {
-  font-weight: 300;
-  padding: 0.4rem 0.55rem;
-  transform: translateY(-0.1rem)
+  color: #D48852;
+  background-color: #ffffff;
+  border: double 0.25rem;  
+  padding: 0.24rem 0.8rem;
 }
 
 /* ABOUT SECTION */
