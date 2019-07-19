@@ -1,0 +1,22 @@
+.article--block {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 1rem;
+}
+.block--picture {
+  width: calc(50% - 2rem);
+  padding-right: 0.8rem;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+.picture-article {
+  height: 80%;
+  width: auto;
+}
+.block--info {
+  width: calc(50% - 2rem);
+  padding-left: 0.8rem;
+  display: flex;
+  flex-flow: column wrap;
+}
