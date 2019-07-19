@@ -4,18 +4,19 @@
   padding: 0 1rem;
 }
 .block--picture {
-  width: calc(50% - 2rem);
+  width: calc(45% - 2rem);
   padding-right: 0.8rem;
   display: flex;
   overflow: hidden;
   justify-content: center;
+  height: 80vh;
 }
 .picture-article {
-  height: 80%;
+  height: 100%;
   width: auto;
 }
 .block--info {
-  width: calc(50% - 2rem);
+  width: calc(55% - 2rem);
   padding-left: 0.8rem;
   display: flex;
   flex-flow: column wrap;
