@@ -38,5 +38,39 @@
   padding: 0 3rem;
 }
 .sugestion--title {
-  margin: 0 0 2rem;
+  margin: 0 0 1rem;
+}
+
+.sugestion--grid {
+  display: flex;
+  flex-flow: row wrap;
+}
+.grid--object {
+  width: calc(90% / 3);
+  padding: 0 calc(5% / 3);
+  margin: 0 0 5rem;
+}
+.object--picture {
+  overflow: hidden;
+  height: 12rem;
+  width: 12rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.picture {
+  width: auto;
+  height: 135%;
+}
+.object--details {
+  text-align: center;
+  margin: 1rem 0 0;
+}
+.details--name {
+  margin: 0;
+}
+.details--price {
+  margin: 0.5rem 0 0;
+  font-size: 1.1rem;
 }
