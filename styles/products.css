@@ -50,6 +50,9 @@
   justify-content: center;
   align-items: flex-start;
 }
+.article--picture-large {
+  align-items: center;
+}
 .picture {
   width: auto;
   height: 135%;
