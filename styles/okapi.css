@@ -29,6 +29,11 @@
   margin: 0 0 2rem;
   font-size: 1.4rem;
 }
+.info--quantity>h4 {
+  margin-top: 0;
+  font-weight: 400;
+  letter-spacing: -0.01rem;
+}
 
 .article--wave {
   position: absolute;
