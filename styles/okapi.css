@@ -34,6 +34,25 @@
   font-weight: 400;
   letter-spacing: -0.01rem;
 }
+.form--block {
+  margin-bottom: 1.2rem;
+}
+.form--block>label {
+  display: block;
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.form--block>input {
+  border: solid white 0.1rem;
+  background-color: #F1B169;
+  padding: 0.5rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 100;
+  max-width: 5rem;
+}
+
 
 .article--wave {
   position: absolute;
