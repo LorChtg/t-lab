@@ -37,9 +37,9 @@
           <div class="form--block">
             <!--<h4 class="quantity--title">Quantité</h4>-->
             <label for="quantity" class="form--label">Quantité</label>
-            <input class="form--number" type="number" name="quantity" min="1" max="9" step="1" value="1">
-            <button>-</button>
-            <button>+</button>
+            <input id="event--read-input" class="form--number" type="number" name="quantity" min="1" max="9" step="1" value="1">
+            <button id="event--quantity-minus">-</button>
+            <button id="event--quantity-plus">+</button>
           </div>
           <button class="info--add">Ajouter au panier</button>
         </form>
@@ -119,5 +119,6 @@
   <!-- END Menu -->
 </body>
 <script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/okapi.js"></script>
 
 </html>
