@@ -39,6 +39,11 @@ a {
   text-decoration: none;
   color: inherit;
 }
+a:hover {
+  font-weight: 400;
+letter-spacing: 0.002rem;
+font-size: 1.04rem;
+}
 
 button {
   text-align: center;
