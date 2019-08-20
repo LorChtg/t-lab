@@ -35,12 +35,20 @@
   letter-spacing: -0.01rem;
 }
 .info--social {
-  margin: 1.5rem 0 0;
+  margin: 1.5rem 0 3rem;
 }
 .social--icons {
   height: 1.5rem;
   width: auto;
   margin: 0 0.5rem 0 0;
+}
+.info--more>h4 {
+  font-weight: 200;
+  text-transform: uppercase;
+  margin: 0rem 0 1rem;
+}
+.info--more>p {
+  margin-top: 0;
 }
 /* FORM */
 .form--block {
