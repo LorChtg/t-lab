@@ -34,6 +34,14 @@
   font-weight: 400;
   letter-spacing: -0.01rem;
 }
+.info--social {
+  margin: 1.5rem 0 0;
+}
+.social--icons {
+  height: 1.5rem;
+  width: auto;
+  margin: 0 0.5rem 0 0;
+}
 /* FORM */
 .form--block {
   margin-bottom: 1.2rem;
