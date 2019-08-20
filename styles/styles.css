@@ -56,8 +56,9 @@ button {
 button:hover {
   color: #F1B169;
   background-color: #ffffff;
-  border: double 0.25rem;  
-  padding: 0.24rem 0.8rem;
+}
+button:active {
+  box-shadow: 0rem 0.2rem 0.8rem #D48852;
 }
 
 /* NAVBAR */

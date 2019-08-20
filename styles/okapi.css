@@ -82,6 +82,7 @@ input[type=number]
   background-color: #ffffff;
   padding: 0.25rem 0.5rem;
   border: solid 0.1rem #ffffff;
+  box-shadow: none;
 }
 
 
