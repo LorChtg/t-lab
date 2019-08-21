@@ -2,3 +2,23 @@
   margin: 3rem 0;
   padding: 0 2rem;
 }
+
+input {
+  border: solid #f4b37d 0.08rem;
+  background-color: #fdf6f1;
+  color: #f4b37d;
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding: 0.4rem 0.8rem;
+  width: 95%;
+}
+textarea {
+  border: solid #f4b37d 0.08rem;
+  background-color: #fdf6f1;
+  color: #f4b37d;
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding: 0.6rem 0.8rem;
+  width: 95%;
+  min-height: 10rem;
+}
