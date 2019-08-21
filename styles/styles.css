@@ -7,6 +7,10 @@ body {
   letter-spacing: 0.005rem;
   overflow-x: hidden;
 }
+body.light-version {
+  background-color: #fdf6f1;
+  color: #f4b37d;
+}
 p {
   font-size: 1.1rem;
   font-weight: 200;
@@ -64,6 +68,32 @@ button:hover {
 }
 button:active {
   box-shadow: 0rem 0.2rem 0.8rem #D48852;
+}
+
+form>div {
+  margin-bottom: 1.6rem;
+}
+label {
+  display: block;
+  margin-bottom: 0.6rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+input {
+  border: solid white 0.1rem;
+  background-color: #F1B169;
+  padding: 0.25rem 0.5rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+textarea {
+  border: solid white 0.1rem;
+  background-color: #F1B169;
+  padding: 0.25rem 0.5rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 100;
 }
 
 /* NAVBAR */
