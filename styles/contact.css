@@ -3,6 +3,10 @@
   padding: 0 2rem;
 }
 
+form {
+  display: flex;
+  flex-flow: column wrap;
+}
 input {
   border: solid #f4b37d 0.08rem;
   background-color: #fdf6f1;
@@ -10,7 +14,10 @@ input {
   font-weight: 400;
   font-size: 1.1rem;
   padding: 0.4rem 0.8rem;
-  width: 95%;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 textarea {
   border: solid #f4b37d 0.08rem;
@@ -19,8 +26,11 @@ textarea {
   font-weight: 400;
   font-size: 1.1rem;
   padding: 0.6rem 0.8rem;
-  width: 95%;
+  width: 100%;
   min-height: 10rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 button {
@@ -29,4 +39,13 @@ button {
   font-size: 1.1rem;
   letter-spacing: 0.02rem;
   padding: 0.6rem 1.4rem;
+  align-self: flex-end;
+}
+button:hover {
+  border: solid #F1B169 0.08rem;
+  padding: 0.54rem 1.2rem;
+  font-weight: 400;
+}
+button:active {
+  box-shadow: 0rem 0.2rem 0.4rem rgba(212, 136, 82, 0.20);
 }
