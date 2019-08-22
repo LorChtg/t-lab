@@ -197,6 +197,17 @@ footer {
   border-bottom: solid 0.1rem;
   padding-bottom: 0.5rem
 }
+.list--link:hover {
+  font-size: 1.4rem;
+  border-width: 0.2rem;
+  padding-bottom: 0.4rem;
+  cursor: pointer;
+}
+.list--link>a:hover {
+  font-size: 1.4rem;
+  letter-spacing: 0.005rem;
+  font-weight: 600;
+}
 
 .menu--animation-in {
   animation: slidein-menu 0.7s;
