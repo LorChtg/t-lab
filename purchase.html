@@ -10,7 +10,7 @@
   <link rel="stylesheet" type="text/css" href="styles/commande.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="light-version">
   <!-- START Navbar -->
   <header>
     <div class="header--menu">
@@ -23,6 +23,45 @@
     </div>
   </header>
   <!-- END Navbar -->
+
+  <!-- START Purchase section-->
+  <section>
+    <div>
+      <h2>RÉCAPITULATIF DE LA COMMANDE</h2>
+      <span>VOTRE PANIER CONTIENT 2 PRODUITS</span>
+    </div>
+    <ul>
+      <li>Récapitulatif</li>
+      <li>Connexion</li>
+      <li>Adresse</li>
+      <li>Livraison</li>
+      <li>Paiement</li>
+    </ul>
+    <form action="">
+      <article>
+        <div>
+          <img>
+        </div>
+        <div>
+          <h3>POLE POLE - Loutre</h3>
+          <p>16,00 €</p>
+          <div>
+            <input id="event--read-input" type="number" name="quantity" min="1" max="9" step="1" value="1">
+            <button id="event--quantity-minus">-</button>
+            <button id="event--quantity-plus">+</button>
+          </div>
+        </div>
+      </article>
+      <p>Sous-total: 32€</p>
+      <div></div>
+      <p>Total: 32€</p>
+      <div>
+        <button>Continuer les achats</button>
+        <button>Commander</button>
+      </div>
+    </form>
+  </section>
+  <!-- END  Purchase section-->
 
   <!-- START Footer -->
   <footer>
