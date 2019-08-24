@@ -1,0 +1,19 @@
+.purchase {
+  margin: 3rem 0;
+  padding: 0 2rem;
+  display: flex;
+  flex-flow: column wrap;
+}
+.purchase--title {
+  display: flex;
+  flex-flow: row wrap;
+}
+.purchase--steps {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  padding: 0;
+}
+.purchase--steps>li {
+  margin-right: 1.4rem;
+}
