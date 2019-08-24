@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400,600,800&display=swap&subset=latin-ext" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles/styles.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="styles/commande.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/purchase.css" rel="stylesheet">
 </head>
 
 <body class="light-version">
@@ -25,12 +25,12 @@
   <!-- END Navbar -->
 
   <!-- START Purchase section-->
-  <section>
-    <div>
+  <section class="purchase">
+    <div class="purchase--title">
       <h2>RÉCAPITULATIF DE LA COMMANDE</h2>
       <span>VOTRE PANIER CONTIENT 2 PRODUITS</span>
     </div>
-    <ul>
+    <ul class="purchase--steps">
       <li>Récapitulatif</li>
       <li>Connexion</li>
       <li>Adresse</li>
@@ -44,6 +44,20 @@
         </div>
         <div>
           <h3>POLE POLE - Loutre</h3>
+          <p>16,00 €</p>
+          <div>
+            <input id="event--read-input" type="number" name="quantity" min="1" max="9" step="1" value="1">
+            <button id="event--quantity-minus">-</button>
+            <button id="event--quantity-plus">+</button>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div>
+          <img>
+        </div>
+        <div>
+          <h3>POLE POLE - Okapi</h3>
           <p>16,00 €</p>
           <div>
             <input id="event--read-input" type="number" name="quantity" min="1" max="9" step="1" value="1">
