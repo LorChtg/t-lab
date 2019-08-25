@@ -7,13 +7,38 @@
 .purchase--title {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.purchase--title>span {
+  color: #424242;
+  font-weight: 200;
+  font-size: 0.95rem;
 }
 .purchase--steps {
   display: flex;
   flex-flow: row wrap;
   list-style: none;
   padding: 0;
+  margin: 0 0 4rem;
 }
 .purchase--steps>li {
   margin-right: 1.4rem;
+}
+
+.purchase--product {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 0 3rem;
+}
+.product--picture {
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  border: solid #f4b37d 0.1rem;
+}
+.product--info {
+  margin-left: 1.8rem;
 }
