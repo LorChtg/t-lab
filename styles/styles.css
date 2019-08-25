@@ -96,6 +96,20 @@ textarea {
   font-weight: 100;
 }
 
+/* Input - remove spinner button */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;
+  /*margin: 0;*/
+}
+input[type=number]
+{
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+}
+
+
 /* NAVBAR */
 header {
   background-color: #ffffff;
