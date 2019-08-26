@@ -86,3 +86,22 @@ button:hover {
 button:active {
   box-shadow: 0rem 0.2rem 0.4rem rgba(212, 136, 82, 0.20);
 }
+
+.purchase--subtotal {
+  text-align: right;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+.purchase--total {
+  text-align: right;
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.purchase--action-buttons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;  
+  margin: 4rem 0 0;
+}
