@@ -1,6 +1,6 @@
 .purchase {
   margin: 3rem 0;
-  padding: 0 2rem;
+  padding: 0 5rem;
   display: flex;
   flex-flow: column wrap;
 }
@@ -45,6 +45,16 @@
 }
 .product--info {
   margin-left: 1.8rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+.product--info h4 {
+  margin: 0 0 0.4rem;
+}
+.product--info p {
+  margin-top: 0;
+  font-size: 1.4rem;
 }
 
 input {
