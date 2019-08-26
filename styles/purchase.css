@@ -70,7 +70,7 @@ input {
   box-sizing: border-box;
 }
 
-button {
+.button-light {
   font-size: 1.1rem;
   letter-spacing: 0.02rem;
   font-weight: 400;
@@ -78,12 +78,28 @@ button {
   border: solid 0.08rem #F1B169;
   background-color: #fff;
 }
-button:hover {
+.button-light:hover {
   font-weight: 400;
   background-color: #F1B169;
   color: #fff;
 }
-button:active {
+.button-light:active {
+  box-shadow: 0rem 0.2rem 0.4rem rgba(212, 136, 82, 0.20);
+}
+.button-command {
+  font-size: 1.1rem;
+  letter-spacing: 0.02rem;
+  font-weight: 400;
+  color: #ffffff;
+  border: solid 0.08rem #F1B169;
+  background-color: #F1B169;
+}
+.button-command:hover {
+  background-color: #ffffff;
+  border: solid 0.08rem #F1B169;
+  color: #F1B169;
+}
+.button-command:active {
   box-shadow: 0rem 0.2rem 0.4rem rgba(212, 136, 82, 0.20);
 }
 
