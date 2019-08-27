@@ -108,6 +108,25 @@ input {
   font-weight: 400;
   font-size: 1.3rem;
 }
+
+.purchase--gift {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.purchase--gift input {
+  width: auto;
+  margin: 0 0.5rem 0 0;
+}
+.purchase--gift img {
+  height: 1.6rem;
+  width: auto;
+  margin: 0 0.5rem 0 0;
+}
+.purchase--gift label {
+  margin: 0;
+}
+
 .purchase--total {
   text-align: right;
   font-weight: 600;
